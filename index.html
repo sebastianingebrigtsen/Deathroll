@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Deathroll</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Death-roll">
+        <h1>Let the games begin.</h1>
+
+        <h2 id="deathRollResultat">1000</h2>
+        <button id="roll">Send it!</button>
+        <br />
+        <p id="spiller"></p>
+      </div>
+      <div class="Stakes">
+        <form>
+          <label for="bet">Choose a bet:</label><br><br>
+          <select name="bet" id="bet">
+            <option id="hus">House</option>
+            <option id="bil">Car</option>
+            <option id="penga">Money</option>
+            <option id="arv">Family</option>
+          </select>
+          <br/><br/><br><br>
+          <button type="button" id="submit">Chose a bet</button>
+        </form>
+        <p id="output"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
